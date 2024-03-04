@@ -46,7 +46,7 @@ if (!MODEL_NAME) {
     MODEL_NAME = "gpt-3.5-turbo"
 }
 if (!TWITCH_USER) {
-    TWITCH_USER = "oSetinhasBot"
+    TWITCH_USER = "PhantusBot"
     console.log("No TWITCH_USER found. Using oSetinhasBot as default.")
 }
 if (!TWITCH_AUTH) {
@@ -63,7 +63,7 @@ if (!COMMAND_NAME) {
 }
 COMMAND_NAME = COMMAND_NAME.map(function(x){ return x.toLowerCase() })
 if (!CHANNELS) {
-    CHANNELS = ["oSetinhas", "jones88"]
+    CHANNELS = ["PhantusBot", "Brildain"]
 } else {
     // split channels by comma into array
     CHANNELS = CHANNELS.split(",")
